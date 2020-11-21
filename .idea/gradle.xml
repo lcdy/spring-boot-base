@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../gradle-6.7" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/my-project" />
+            <option value="$PROJECT_DIR$/spring-boot-project" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-actuator" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-actuator-autoconfigure" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-cli" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-dependencies" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-devtools" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-docs" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-parent" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-properties-migrator" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-aop" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-json" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-logging" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-test" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-tomcat" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-web" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-test" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-test-autoconfigure" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-tools" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-antlib" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-autoconfigure-processor" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-buildpack-platform" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-configuration-metadata" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-configuration-processor" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-gradle-plugin" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-jarmode-layertools" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-loader" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-loader-tools" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-maven-plugin" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-test-support" />
+            <option value="$PROJECT_DIR$/spring-boot-tests" />
+            <option value="$PROJECT_DIR$/spring-boot-tests/spring-boot-deployment-tests" />
+            <option value="$PROJECT_DIR$/spring-boot-tests/spring-boot-smoke-tests" />
+            <option value="$PROJECT_DIR$/spring-boot-tests/spring-boot-smoke-tests/spring-boot-smoke-test-aop" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
