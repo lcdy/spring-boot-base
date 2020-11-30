@@ -14,10 +14,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7307a386-8666-4f50-90a0-3b2739e49edc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/main/java/com/slk/AppStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/main/java/com/slk/AppStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-project/spring-boot-cli/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-project/spring-boot-cli/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/WebApplicationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/WebApplicationType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +43,41 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/my-project">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="spring-boot-build" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-boot-build" type="f1a62948:ProjectNode" />
+                <item name="my-project" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-boot-build" type="f1a62948:ProjectNode" />
+                <item name="my-project" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-boot-build" type="f1a62948:ProjectNode" />
+                <item name="my-project" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring-boot-build" type="f1a62948:ProjectNode" />
+                <item name="my-project" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="project spring-boot-parent" type="b3323d55:ExternalSystemViewDefaultContributor$DependencyExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -69,7 +103,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1kcEdPYCPdP5iUEyjfXk31kE5Hb" />
+  <component name="ProjectId" id="springboot-base-master" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -85,13 +119,14 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SFNotes" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30034524" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="RunDashboard">
@@ -101,61 +136,36 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AppStart">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-build.my-project.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.slk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.slk.AppStart" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DevToolsTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot-build.spring-boot-project.spring-boot-devtools.intTest" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.DevToolsTestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExitCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot-build.spring-boot-project.spring-boot-docs.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.boot.docs.ExitCodeApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SampleAopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-boot-build.spring-boot-tests.spring-boot-smoke-tests.spring-boot-smoke-test-aop.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="smoketest.aop.SampleAopApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager">
+    <configuration name="spring-boot-base:my-project [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/my-project" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.AppStart" />
+        <item itemvalue="Gradle.spring-boot-base:my-project [buildDependents]" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="7307a386-8666-4f50-90a0-3b2739e49edc" name="Default Changelist" comment="" />
@@ -165,11 +175,22 @@
       <updated>1605991568492</updated>
       <workItem from="1605991569701" duration="1110000" />
       <workItem from="1605992726597" duration="2016000" />
+      <workItem from="1606002855773" duration="82000" />
+      <workItem from="1606012130021" duration="305000" />
+      <workItem from="1606038745976" duration="386000" />
+      <workItem from="1606079000962" duration="142000" />
+      <workItem from="1606079174255" duration="137000" />
+      <workItem from="1606079384229" duration="51000" />
+      <workItem from="1606079598398" duration="4280000" />
+      <workItem from="1606094651885" duration="5733000" />
+      <workItem from="1606270103570" duration="2053000" />
+      <workItem from="1606768658781" duration="395000" />
+      <workItem from="1606769078415" duration="422000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -184,73 +205,220 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="428" y="230" key="#Configure_Path_Variables" timestamp="1606768680282">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="428" y="230" key="#Configure_Path_Variables/0.0.1280.760@0.0.1280.760" timestamp="1606768680282" />
+    <state x="96" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606769140997">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="96" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1606769140997" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1605992905846">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605992905846" />
-    <state x="569" y="129" key="FileChooserDialogImpl" timestamp="1605994758873">
+    <state x="573" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606082978895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="569" y="129" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605994758873" />
-    <state width="1187" height="197" key="GridCell.Tab.0.bottom" timestamp="1605994759731">
+    <state x="573" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1606082978895" />
+    <state width="1156" height="466" key="DebuggerActiveHint" timestamp="1606099459692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1187" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605994759731" />
-    <state width="1187" height="197" key="GridCell.Tab.0.center" timestamp="1605994759731">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1156" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1606099459692" />
+    <state x="474" y="119" key="FileChooserDialogImpl" timestamp="1606768678613">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1187" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605994759731" />
-    <state width="1187" height="197" key="GridCell.Tab.0.left" timestamp="1605994759731">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="474" y="119" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1606768678613" />
+    <state x="569" y="129" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606094962072" />
+    <state width="1060" height="73" key="GridCell.Tab.0.bottom" timestamp="1606272157559">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1187" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605994759731" />
-    <state width="1187" height="197" key="GridCell.Tab.0.right" timestamp="1605994759731">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1060" height="73" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1606272157559" />
+    <state width="1176" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606100449417" />
+    <state width="1060" height="73" key="GridCell.Tab.0.center" timestamp="1606272157559">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1187" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605994759731" />
-    <state width="1187" height="197" key="GridCell.Tab.1.bottom" timestamp="1605994759731">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1060" height="73" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1606272157559" />
+    <state width="1176" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606100449417" />
+    <state width="1060" height="73" key="GridCell.Tab.0.left" timestamp="1606272157559">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1187" height="197" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605994759731" />
-    <state width="1187" height="197" key="GridCell.Tab.1.center" timestamp="1605994759731">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1060" height="73" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1606272157559" />
+    <state width="1176" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606100449417" />
+    <state width="1060" height="73" key="GridCell.Tab.0.right" timestamp="1606272157559">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1187" height="197" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605994759731" />
-    <state width="1187" height="197" key="GridCell.Tab.1.left" timestamp="1605994759731">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1060" height="73" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1606272157559" />
+    <state width="1176" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606100449417" />
+    <state width="1060" height="73" key="GridCell.Tab.1.bottom" timestamp="1606272157559">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1187" height="197" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605994759731" />
-    <state width="1187" height="197" key="GridCell.Tab.1.right" timestamp="1605994759731">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1060" height="73" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1606272157559" />
+    <state width="1176" height="251" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606100449417" />
+    <state width="1060" height="73" key="GridCell.Tab.1.center" timestamp="1606272157559">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1187" height="197" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605994759731" />
-    <state width="1203" height="326" key="GridCell.Tab.2.bottom" timestamp="1605992690382">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1060" height="73" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1606272157559" />
+    <state width="1176" height="251" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1606100449417" />
+    <state width="1060" height="73" key="GridCell.Tab.1.left" timestamp="1606272157559">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1203" height="326" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605992690382" />
-    <state width="1203" height="326" key="GridCell.Tab.2.center" timestamp="1605992690382">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1060" height="73" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1606272157559" />
+    <state width="1176" height="251" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1606100449417" />
+    <state width="1060" height="73" key="GridCell.Tab.1.right" timestamp="1606272157559">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1203" height="326" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1605992690382" />
-    <state width="1203" height="326" key="GridCell.Tab.2.left" timestamp="1605992690382">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1060" height="73" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1606272157559" />
+    <state width="1176" height="251" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1606100449417" />
+    <state width="1060" height="73" key="GridCell.Tab.2.bottom" timestamp="1606272157559">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1203" height="326" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1605992690382" />
-    <state width="1203" height="326" key="GridCell.Tab.2.right" timestamp="1605992690382">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1060" height="73" key="GridCell.Tab.2.bottom/0.0.1280.760@0.0.1280.760" timestamp="1606272157559" />
+    <state width="1176" height="251" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606100449417" />
+    <state width="1060" height="73" key="GridCell.Tab.2.center" timestamp="1606272157559">
+      <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1203" height="326" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1605992690382" />
+    <state width="1060" height="73" key="GridCell.Tab.2.center/0.0.1280.760@0.0.1280.760" timestamp="1606272157559" />
+    <state width="1176" height="251" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1606100449417" />
+    <state width="1060" height="73" key="GridCell.Tab.2.left" timestamp="1606272157559">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1060" height="73" key="GridCell.Tab.2.left/0.0.1280.760@0.0.1280.760" timestamp="1606272157559" />
+    <state width="1176" height="251" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1606100449417" />
+    <state width="1060" height="73" key="GridCell.Tab.2.right" timestamp="1606272157559">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1060" height="73" key="GridCell.Tab.2.right/0.0.1280.760@0.0.1280.760" timestamp="1606272157559" />
+    <state width="1176" height="251" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1606100449417" />
     <state x="408" y="116" key="NewModule_or_Project.wizard" timestamp="1605993939019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="408" y="116" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1605993939019" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1605994516327">
+    <state x="208" y="20" key="SettingsEditor" timestamp="1606768828002">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="208" y="20" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1606768828002" />
+    <state x="250" y="22" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606095030746" />
+    <state x="294" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606096151720">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605994516327" />
-    <state x="235" y="24" key="new project wizard" timestamp="1605994577835">
+    <state x="294" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1606096151720" />
+    <state x="235" y="24" key="new project wizard" timestamp="1606082777444">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="235" y="24" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1605994577835" />
+    <state x="235" y="24" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1606082777444" />
+    <state x="355" y="47" width="774" height="517" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1606094962616">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="355" y="47" width="774" height="517" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1606094962616" />
+    <state x="294" y="182" width="928" height="678" key="search.everywhere.popup" timestamp="1606083279297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="294" y="182" width="928" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606083279297" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <condition expression="beanName.equals(&quot;welcomePageHandlerMapping&quot;)" language="JAVA" />
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.springframework/spring-beans/5.2.10.RELEASE/6a8c0bfd3f9f567ab226309f783dcf728c343be/spring-beans-5.2.10.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>932</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="beanName.equals(&quot;welcomePageHandlerMapping&quot;)" language="JAVA" />
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.springframework/spring-beans/5.2.10.RELEASE/6a8c0bfd3f9f567ab226309f783dcf728c343be/spring-beans-5.2.10.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>939</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="beanName.equals(&quot;welcomePageHandlerMapping&quot;)" language="JAVA" />
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.springframework/spring-beans/5.2.10.RELEASE/6a8c0bfd3f9f567ab226309f783dcf728c343be/spring-beans-5.2.10.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java</url>
+          <line>950</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java</url>
+          <line>263</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>185</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>220</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>233</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>251</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>271</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>289</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>304</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>421</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>436</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java</url>
+          <line>347</line>
+          <properties field="filters" class="org.springframework.boot.autoconfigure.AutoConfigurationImportSelector.ConfigurationClassFilter" />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

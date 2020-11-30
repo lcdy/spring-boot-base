@@ -13,5 +13,17 @@ public class AppStart {
 		UserService userService = (UserService) context.getBean("userService");
 		System.out.println(userService.findOne());
 		System.out.println(context.getBeanDefinitionNames().length);
+
+
+		/**
+		 * 1、SpringApplication：有很多方法
+		 *
+		 *
+		 * 2、run方法 ---> SpringApplication构造方法
+		 *
+		 * 分析：@EnableAutoConfiguration注解
+		 * 		@Import(AutoConfigurationImportSelector.class)
+		 */
+
 	}
 }

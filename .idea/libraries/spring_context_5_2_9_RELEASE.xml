@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="spring-context-5.2.9.RELEASE">
+    <CLASSES>
+      <root url="jar://$GRADLE_USER_HOME$/org/springframework/spring-context/5.2.9.RELEASE/spring-context-5.2.9.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

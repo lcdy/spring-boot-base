@@ -16,23 +16,8 @@
 
 package org.springframework.boot;
 
-import java.lang.reflect.Constructor;
-import java.security.AccessControlException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
-import java.util.Set;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.CachedIntrospectionResults;
 import org.springframework.beans.factory.config.BeanDefinition;
@@ -62,26 +47,16 @@ import org.springframework.core.GenericTypeResolver;
 import org.springframework.core.annotation.AnnotationAwareOrderComparator;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.core.convert.support.ConfigurableConversionService;
-import org.springframework.core.env.CommandLinePropertySource;
-import org.springframework.core.env.CompositePropertySource;
-import org.springframework.core.env.ConfigurableEnvironment;
-import org.springframework.core.env.Environment;
-import org.springframework.core.env.MapPropertySource;
-import org.springframework.core.env.MutablePropertySources;
-import org.springframework.core.env.PropertySource;
-import org.springframework.core.env.SimpleCommandLinePropertySource;
-import org.springframework.core.env.StandardEnvironment;
+import org.springframework.core.env.*;
 import org.springframework.core.io.DefaultResourceLoader;
 import org.springframework.core.io.ResourceLoader;
 import org.springframework.core.io.support.SpringFactoriesLoader;
-import org.springframework.util.Assert;
-import org.springframework.util.ClassUtils;
-import org.springframework.util.CollectionUtils;
-import org.springframework.util.ObjectUtils;
-import org.springframework.util.ReflectionUtils;
-import org.springframework.util.StopWatch;
-import org.springframework.util.StringUtils;
+import org.springframework.util.*;
 import org.springframework.web.context.support.StandardServletEnvironment;
+
+import java.lang.reflect.Constructor;
+import java.security.AccessControlException;
+import java.util.*;
 
 /**
  * Class that can be used to bootstrap and launch a Spring application from a Java main
@@ -250,13 +225,16 @@ public class SpringApplication {
 	 * @see #setSources(Set)
 	 */
 	public SpringApplication(Class<?>... primarySources) {
+
+		// 构造重载
 		this(null, primarySources);
 	}
 
 	/**
-	 * Create a new {@link SpringApplication} instance. The application context will load
-	 * beans from the specified primary sources (see {@link SpringApplication class-level}
-	 * documentation for details. The instance can be customized before calling
+	 * Create a new {@link SpringApplication} instance.
+	 * The application context will load beans from the specified primary sources: application从主类加载bean
+	 * (see {@link SpringApplication class-level}
+	 * documentation for details. The instance can be customized before calling: 可以在调用之前自定义实例
 	 * {@link #run(String...)}.
 	 * @param resourceLoader the resource loader to use
 	 * @param primarySources the primary bean sources
@@ -265,12 +243,29 @@ public class SpringApplication {
 	 */
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public SpringApplication(ResourceLoader resourceLoader, Class<?>... primarySources) {
-		this.resourceLoader = resourceLoader;
+
+
+		// resourceLoader == null, primarySource: 主方法类
+		this.resourceLoader = resourceLoader;  // null
 		Assert.notNull(primarySources, "PrimarySources must not be null");
 		this.primarySources = new LinkedHashSet<>(Arrays.asList(primarySources));
-		this.webApplicationType = WebApplicationType.deduceFromClasspath();
+
+
+		// deduceFromClasspath: 从类路径推断，webApplicationType是 servlet
+		this.webApplicationType = WebApplicationType.deduceFromClasspath();  // SERVLET
+
+		/*添加七个：org.xxx.xxInitializer*/
 		setInitializers((Collection) getSpringFactoriesInstances(ApplicationContextInitializer.class));
+
+		/*
+		* 添加11个listener：引出观察者设计模式
+		*
+		* */
 		setListeners((Collection) getSpringFactoriesInstances(ApplicationListener.class));
+
+		/*
+		* 推断主类
+		* */
 		this.mainApplicationClass = deduceMainApplicationClass();
 	}
 
@@ -296,13 +291,24 @@ public class SpringApplication {
 	 * @return a running {@link ApplicationContext}
 	 */
 	public ConfigurableApplicationContext run(String... args) {
+
+		// SpringApplication初始化完成：两个集合，确认主类
 		StopWatch stopWatch = new StopWatch();
 		stopWatch.start();
+
 		ConfigurableApplicationContext context = null;
 		Collection<SpringBootExceptionReporter> exceptionReporters = new ArrayList<>();
 		configureHeadlessProperty();
+
+		/*
+		* getRunListeners(args)：加载spring.factories，取出一个listeners（只有一个，最好不要自己添加）
+		*
+		* eventPublishingRunListener对象包含一个属性：SimpleApplicationEventMulticaster
+		* */
 		SpringApplicationRunListeners listeners = getRunListeners(args);
 		listeners.starting();
+
+
 		try {
 			ApplicationArguments applicationArguments = new DefaultApplicationArguments(args);
 			ConfigurableEnvironment environment = prepareEnvironment(listeners, applicationArguments);
@@ -417,13 +423,24 @@ public class SpringApplication {
 	}
 
 	private <T> Collection<T> getSpringFactoriesInstances(Class<T> type) {
+		// type: ApplicationListener.class
 		return getSpringFactoriesInstances(type, new Class<?>[] {});
 	}
 
 	private <T> Collection<T> getSpringFactoriesInstances(Class<T> type, Class<?>[] parameterTypes, Object... args) {
 		ClassLoader classLoader = getClassLoader();
+
 		// Use names and ensure unique to protect against duplicates
+		// 使用名称并确保唯一以防止重复，set去重
+
+		/*从spring.factories文件中取出所有key为org.xx.ApplicationListener.class 的值*/
+		// loadSpringFactories(classLoader).getOrDefault(factoryTypeName, Collections.emptyList());
 		Set<String> names = new LinkedHashSet<>(SpringFactoriesLoader.loadFactoryNames(type, classLoader));
+		/*
+		* 取出了所有spring.factories文件中key为org.xx.ApplicationListener.class的值
+		* 共有七个：org.xxx.xxInitializer
+		* */
+		// 为spring.factories文件这些类创建实例
 		List<T> instances = createSpringFactoriesInstances(type, parameterTypes, classLoader, args, names);
 		AnnotationAwareOrderComparator.sort(instances);
 		return instances;
@@ -432,12 +449,22 @@ public class SpringApplication {
 	@SuppressWarnings("unchecked")
 	private <T> List<T> createSpringFactoriesInstances(Class<T> type, Class<?>[] parameterTypes,
 			ClassLoader classLoader, Object[] args, Set<String> names) {
+
+		// type: ApplicationListener.class
+		// parameterTypes: null
+		// classLoader = getClassLoader();
+		// args: 启动类
+		// names: xxInitializer(全路径)
 		List<T> instances = new ArrayList<>(names.size());
 		for (String name : names) {
 			try {
+				// 反射
 				Class<?> instanceClass = ClassUtils.forName(name, classLoader);
+				// type: ApplicationListener.class
 				Assert.isAssignable(type, instanceClass);
 				Constructor<?> constructor = instanceClass.getDeclaredConstructor(parameterTypes);
+
+				// 配置类
 				T instance = (T) BeanUtils.instantiateClass(constructor, args);
 				instances.add(instance);
 			}
@@ -1223,6 +1250,8 @@ public class SpringApplication {
 	 * @return the running {@link ApplicationContext}
 	 */
 	public static ConfigurableApplicationContext run(Class<?> primarySource, String... args) {
+
+		// 进去看看
 		return run(new Class<?>[] { primarySource }, args);
 	}
 
@@ -1234,6 +1263,17 @@ public class SpringApplication {
 	 * @return the running {@link ApplicationContext}
 	 */
 	public static ConfigurableApplicationContext run(Class<?>[] primarySources, String[] args) {
+
+
+		// SpringApplication()构造方法
+		/*
+		* new SpringApplication(){
+		* 	一个集合存存放7个Initialize;
+		* 	一个集合存放11个listener;
+		* 	推断主类
+		* }
+		* */
+		// 参数：启动类参数
 		return new SpringApplication(primarySources).run(args);
 	}
 

@@ -2,23 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Gradle Imported" enabled="true">
-        <outputRelativeToContentRoot value="true" />
-        <option name="org.springframework.boot.configurationprocessor.additionalMetadataLocations" value="spring-boot-project\spring-boot\src\main\resources" />
-        <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-configuration-processor/build/libs/spring-boot-configuration-processor-2.3.5.RELEASE.jar" />
-          <entry name="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.13.3/4e857439fc4fe974d212adaaaa3b118b8b50e3ec/log4j-core-2.13.3.jar" />
-          <entry name="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.13.3/ec1508160b93d274b1add34419b897bae84c6ca9/log4j-api-2.13.3.jar" />
-        </processorPath>
-        <module name="spring-boot-build.spring-boot-project.spring-boot.main" />
-      </profile>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <option name="org.springframework.boot.configurationprocessor.additionalMetadataLocations" value="spring-boot-project\spring-boot-actuator\src\main\resources" />
         <processorPath useClasspath="false">
           <entry name="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-configuration-processor/build/libs/spring-boot-configuration-processor-2.3.5.RELEASE.jar" />
         </processorPath>
-        <module name="spring-boot-build.spring-boot-project.spring-boot-actuator.main" />
+        <module name="spring-boot-actuator_main" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -27,7 +18,7 @@
           <entry name="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-configuration-processor/build/libs/spring-boot-configuration-processor-2.3.5.RELEASE.jar" />
           <entry name="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-autoconfigure-processor/build/libs/spring-boot-autoconfigure-processor-2.3.5.RELEASE.jar" />
         </processorPath>
-        <module name="spring-boot-build.spring-boot-project.spring-boot-actuator-autoconfigure.main" />
+        <module name="spring-boot-actuator-autoconfigure_main" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -36,7 +27,7 @@
           <entry name="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-configuration-processor/build/libs/spring-boot-configuration-processor-2.3.5.RELEASE.jar" />
           <entry name="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-autoconfigure-processor/build/libs/spring-boot-autoconfigure-processor-2.3.5.RELEASE.jar" />
         </processorPath>
-        <module name="spring-boot-build.spring-boot-project.spring-boot-autoconfigure.main" />
+        <module name="spring-boot-autoconfigure_main" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -45,7 +36,17 @@
           <entry name="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-configuration-processor/build/libs/spring-boot-configuration-processor-2.3.5.RELEASE.jar" />
           <entry name="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-autoconfigure-processor/build/libs/spring-boot-autoconfigure-processor-2.3.5.RELEASE.jar" />
         </processorPath>
-        <module name="spring-boot-build.spring-boot-project.spring-boot-devtools.main" />
+        <module name="spring-boot-devtools_main" />
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <option name="org.springframework.boot.configurationprocessor.additionalMetadataLocations" value="spring-boot-project\spring-boot\src\main\resources" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/spring-boot-project/spring-boot-tools/spring-boot-configuration-processor/build/libs/spring-boot-configuration-processor-2.3.5.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.13.3/4e857439fc4fe974d212adaaaa3b118b8b50e3ec/log4j-core-2.13.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.13.3/ec1508160b93d274b1add34419b897bae84c6ca9/log4j-api-2.13.3.jar" />
+        </processorPath>
+        <module name="spring-boot_main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8" />
