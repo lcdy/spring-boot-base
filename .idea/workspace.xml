@@ -14,15 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7307a386-8666-4f50-90a0-3b2739e49edc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-project/src/main/java/com/slk/AppStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-project/src/main/java/com/slk/AppStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-project/spring-boot-autoconfigure/src/main/java/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/SpringApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/WebApplicationType.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-project/spring-boot/src/main/java/org/springframework/boot/WebApplicationType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +86,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="baseEnv" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -159,6 +156,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.spring-boot-base:my-project [buildDependents]" />
+        <item itemvalue="Gradle.spring-boot-base:my-project [buildDependents]" />
+        <item itemvalue="Gradle.spring-boot-base:my-project [buildDependents]" />
+        <item itemvalue="Gradle.spring-boot-base:my-project [buildDependents]" />
+        <item itemvalue="Gradle.spring-boot-base:my-project [buildDependents]" />
       </list>
     </recent_temporary>
   </component>
@@ -185,8 +186,16 @@
       <workItem from="1606094651885" duration="5733000" />
       <workItem from="1606270103570" duration="2053000" />
       <workItem from="1606768658781" duration="395000" />
-      <workItem from="1606769078415" duration="422000" />
+      <workItem from="1606769078415" duration="738000" />
     </task>
+    <task id="LOCAL-00001" summary="master clear env">
+      <created>1606769640586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606769640586</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +212,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="master clear env" />
+    <option name="LAST_COMMIT_MESSAGE" value="master clear env" />
   </component>
   <component name="WindowStateProjectService">
     <state x="428" y="230" key="#Configure_Path_Variables" timestamp="1606768680282">
@@ -221,6 +234,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="573" y="335" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1606082978895" />
+    <state x="90" y="0" key="CommitChangelistDialog2" timestamp="1606769639924">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="90" y="0" key="CommitChangelistDialog2/0.0.1280.760@0.0.1280.760" timestamp="1606769639924" />
     <state width="1156" height="466" key="DebuggerActiveHint" timestamp="1606099459692">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -299,10 +316,18 @@
     </state>
     <state x="208" y="20" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1606768828002" />
     <state x="250" y="22" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606095030746" />
+    <state x="233" y="113" key="Vcs.Push.Dialog.v2" timestamp="1606769654410">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="233" y="113" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1606769654410" />
     <state x="294" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606096151720">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="294" y="141" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1606096151720" />
+    <state x="330" y="167" key="git4idea.merge.GitPullDialog" timestamp="1606769799818">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="330" y="167" key="git4idea.merge.GitPullDialog/0.0.1280.760@0.0.1280.760" timestamp="1606769799818" />
     <state x="235" y="24" key="new project wizard" timestamp="1606082777444">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
