@@ -13,9 +13,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aa-dbTools" />
             <option value="$PROJECT_DIR$/buildSrc" />
-            <option value="$PROJECT_DIR$/my-project" />
-            <option value="$PROJECT_DIR$/spring-boot-beans" />
             <option value="$PROJECT_DIR$/spring-boot-project" />
             <option value="$PROJECT_DIR$/spring-boot-project/spring-boot" />
             <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-actuator" />
@@ -30,6 +29,9 @@
             <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters" />
             <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter" />
             <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-aop" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-data-jdbc" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-data-jpa" />
+            <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-jdbc" />
             <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-json" />
             <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-logging" />
             <option value="$PROJECT_DIR$/spring-boot-project/spring-boot-starters/spring-boot-starter-test" />
